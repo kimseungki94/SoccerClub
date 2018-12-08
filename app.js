@@ -27,6 +27,7 @@ app.use('/users', usersRouter);
 app.use('/account/signin', signinRouter);
 app.use('/account/signout', signoutRouter);
 app.use('/practice/practice', practiveRouter);
+app.use('/group', practiveRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
